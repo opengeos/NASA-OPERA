@@ -36,8 +36,7 @@ site:
     logo_dark: logo.png
     favicon: fav.ico
     folders: true
-    # style: custom.css
-    # analytics_google: G-XXX
+    analytics_google: G-HLSSQ8JVQZ
   template: book-theme
   parts:
     primary_sidebar_footer: ''
