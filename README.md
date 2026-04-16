@@ -8,6 +8,8 @@ A website for NASA OPERA built with [MyST Markdown](https://mystmd.org/) and aut
 - **GitHub Pages** deployment on push to `main`
 - **Netlify PR previews** for pull request review
 - **Pre-commit hooks**: Black, codespell, nbstripout for code quality
+- **Blog** with per-tag index pages and an auto-generated RSS/Atom feed
+- **Giscus comments** on each blog post, backed by GitHub Discussions
 
 ## Quick Start
 
@@ -37,6 +39,13 @@ A website for NASA OPERA built with [MyST Markdown](https://mystmd.org/) and aut
 │   ├── references.bib          # Bibliography
 │   ├── jupytext.toml
 │   └── images/                 # Shared images
+├── blog.md                     # Blog landing page
+├── posts/                      # Blog posts (Markdown with frontmatter)
+├── tags/                       # Per-tag index pages
+├── custom.css                  # Site CSS overrides
+├── giscus-light.css            # Giscus (comments) light theme
+├── generate_rss.py             # RSS/Atom feed generator
+├── inject_comments.py          # Injects Giscus widget into post HTML
 ├── .pre-commit-config.yaml     # Pre-commit hook configuration
 ├── CONTRIBUTING.md              # Contribution guidelines
 ├── CONDUCT.md                   # Code of conduct
@@ -59,6 +68,25 @@ Edit `myst.yml`:
 
 1. Create a new `.md` file in the appropriate `book/` subdirectory
 2. Add the file to `project.toc` in `myst.yml`
+
+### Adding Blog Posts
+
+1. Create a new Markdown file in `posts/` with a YAML frontmatter block. At minimum, include `title`, `date` (ISO format, e.g., `2026-04-16`), `description`, and `tags`.
+2. Add a card for the new post to `blog.md`.
+3. If the post uses a tag without an existing index page, create one in `tags/` and add it to `project.toc` under `blog.md`.
+
+The RSS and Atom feeds are regenerated on each deploy from the frontmatter in `posts/*.md`.
+
+### Enabling Giscus Comments
+
+Each blog post renders a Giscus comments widget at the bottom. To enable it for this repository:
+
+1. Enable **Discussions** on your GitHub repository (Settings → General → Features).
+2. Install the [Giscus app](https://github.com/apps/giscus).
+3. Visit [giscus.app](https://giscus.app) and fill in the form for your repo to obtain `data-repo-id` and `data-category-id`.
+4. Replace the `REPLACE_WITH_REPO_ID` and `REPLACE_WITH_CATEGORY_ID` placeholders in `inject_comments.py`.
+
+Update `SITE_URL`, `SITE_TITLE`, `SITE_SUBTITLE`, and `AUTHOR` in `generate_rss.py` to match your site.
 
 ## Building Locally
 

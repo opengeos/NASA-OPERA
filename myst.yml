@@ -9,6 +9,13 @@ project:
     - Thumbs.db
     - .DS_Store
     - '**.ipynb_checkpoints'
+    - generate_rss.py
+    - inject_comments.py
+    - rss.xml
+    - atom.xml
+    - CONDUCT.md
+    - CONTRIBUTING.md
+    - README.md
   github: opengeos/NASA-OPERA
   thebe:
     binder:
@@ -30,13 +37,23 @@ project:
     - title: Examples
       children:
         - file: book/part02/first-example.md
+    - file: blog.md
+      children:
+        - file: tags/nasa-opera.md
+        - file: tags/announcement.md
+    - pattern: posts/*.md
+      hidden: true
 site:
   options:
     logo: logo.png
     logo_dark: logo.png
     favicon: fav.ico
     folders: true
+    style: custom.css
     analytics_google: G-HLSSQ8JVQZ
+  actions:
+    - title: RSS
+      url: https://opera.opengeos.org/rss.xml
   template: book-theme
   parts:
     primary_sidebar_footer: ''
