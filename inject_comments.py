@@ -86,10 +86,10 @@ GISCUS_SNIPPET = """
 
     var s = document.createElement('script');
     s.src = 'https://giscus.app/client.js';
-    s.setAttribute('data-repo', 'opengeos/NASA-OPERA');           // TODO: Update with Giscus config from https://giscus.app
-    s.setAttribute('data-repo-id', 'REPLACE_WITH_REPO_ID');         // TODO: Update with Giscus config from https://giscus.app
-    s.setAttribute('data-category', 'General');              // TODO: Update with Giscus config from https://giscus.app
-    s.setAttribute('data-category-id', 'REPLACE_WITH_CATEGORY_ID');   // TODO: Update with Giscus config from https://giscus.app
+    s.setAttribute('data-repo', 'opengeos/NASA-OPERA');
+    s.setAttribute('data-repo-id', 'R_kgDOR7jMnA');
+    s.setAttribute('data-category', 'General');
+    s.setAttribute('data-category-id', 'DIC_kwDOR7jMnM4C6M80');
     s.setAttribute('data-mapping', 'pathname');
     s.setAttribute('data-strict', '0');
     s.setAttribute('data-reactions-enabled', '1');
