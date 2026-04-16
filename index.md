@@ -12,16 +12,16 @@ Describe your book here.
 
 ### Preface
 
-- [Preface](book/preface.md)
+- [Preface](pages/preface.md)
 
 ### Part I: Getting Started
 
-1. [Getting Started](book/part01/getting-started.md)
-2. [Installation](book/part01/installation.md)
+1. [Getting Started](pages/part01/getting-started.md)
+2. [Installation](pages/part01/installation.md)
 
 ### Part II: Examples
 
-3. [First Example](book/part02/first-example.md)
+3. [First Example](pages/part02/first-example.md)
 
 ## About the Author
 
