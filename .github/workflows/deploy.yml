@@ -33,6 +33,13 @@ jobs:
         with:
           node-version: 18.x
 
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install Python dependencies
+        run: pip install feedgen pyyaml
+
       - name: Install MyST Markdown
         run: npm install -g mystmd
 
@@ -41,6 +48,12 @@ jobs:
         # env:
         #   BASE_URL: /${{ github.event.repository.name }}
         run: myst build --html
+
+      - name: Generate RSS and Atom feeds
+        run: python generate_rss.py
+
+      - name: Inject Giscus comments into blog posts
+        run: python inject_comments.py
 
       - name: Copy static files
         run: |
