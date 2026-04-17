@@ -6,7 +6,7 @@ thumbnail: images/qiusheng-wu-thumbnail.webp
 
 # Contact
 
-Feel free to reach out for questions:
+Feel free to reach out to the project PI Dr. [Qiusheng Wu](https://gishub.org) for questions.
 
 **Email:** [qwu18@utk.edu](mailto:qwu18@utk.edu)
 
