@@ -1,24 +1,3 @@
-/* Reduce theme FOUC: hint the browser both color schemes are supported so
-   form controls / scrollbars pick the right defaults before React hydrates,
-   and pre-paint the viewport background to match OS preference. */
-html {
-  color-scheme: light dark;
-}
-
-@media (prefers-color-scheme: dark) {
-  html,
-  body {
-    background-color: #0f172a;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  html,
-  body {
-    background-color: #ffffff;
-  }
-}
-
 .myst-fm-downloads-dropdown {
   display: none !important;
 }
