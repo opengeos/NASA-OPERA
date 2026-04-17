@@ -35,6 +35,8 @@ project:
         - file: pages/data/DSWx.md
         - file: pages/data/DIST.md
         - file: pages/data/DISP-S1.md
+        - file: pages/data/CSLC-S1.md
+        - file: pages/data/RTC-S1.md
     - title: Notebook Examples
       children:
         - file: pages/notebooks/DSWx.md
