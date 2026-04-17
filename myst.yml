@@ -19,12 +19,12 @@ project:
     - CONTRIBUTING.md
     - README.md
   github: opengeos/NASA-OPERA
-  thebe:
-    binder:
-      repo: opengeos/NASA-OPERA
-      provider: github
-      url: https://mybinder.org
-      ref: main
+  # thebe:
+  #   binder:
+  #     repo: opengeos/NASA-OPERA
+  #     provider: github
+  #     url: https://mybinder.org
+  #     ref: main
   bibliography:
     - pages/references.bib
   toc:
