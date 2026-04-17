@@ -1,14 +1,16 @@
 version: 1
 project:
   title: NASA OPERA
-  authors:
-    - name: Author Name
+  subtitle: NASA's Observational Products for End-Users from Remote Sensing Analysis (OPERA)
+  # authors:
+  #   - name: Author Name
   copyright: '2026'
   exclude:
     - _build
     - Thumbs.db
     - .DS_Store
     - '**.ipynb_checkpoints'
+    - generate_logo.py
     - generate_rss.py
     - inject_comments.py
     - rss.xml
@@ -27,21 +29,33 @@ project:
     - pages/references.bib
   toc:
     - file: index.md
-    - title: Preface
+    - file: pages/about.md
+    - title: Data Products
       children:
-        - file: pages/preface.md
-    - title: Getting Started
+        - file: pages/data/DSWx.md
+        - file: pages/data/DIST.md
+        - file: pages/data/DISP-S1.md
+    - title: Notebook Examples
       children:
-        - file: pages/part01/getting-started.md
-        - file: pages/part01/installation.md
-    - title: Examples
+        - file: pages/notebooks/DSWx.md
+        - file: pages/notebooks/DIST.md
+        - file: pages/notebooks/DISP-S1.md
+    - title: Web Apps
       children:
-        - file: pages/part02/first-example.md
+        - file: pages/apps/DSWx.md
+        - file: pages/apps/DIST.md
+        - file: pages/apps/DISP-S1.md
+    - title: QGIS Plugins
+      children:
+        - file: pages/plugins/OPERA.md
+        - file: pages/plugins/Leafmap.md
+        - file: pages/plugins/GEE.md
     - file: blog.md
       children:
         - file: tags/myst-markdown.md
         - file: tags/tutorial.md
         - file: tags/github-pages.md
+    - file: pages/contact.md
     - pattern: posts/*.md
       hidden: true
 site:
@@ -57,4 +71,4 @@ site:
       url: https://opera.opengeos.org/rss.xml
   template: book-theme
   parts:
-    primary_sidebar_footer: ''
+    primary_sidebar_footer: '![](logo.png)'
