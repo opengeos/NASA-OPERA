@@ -22,16 +22,18 @@ SIZE = 512
 SS = 4  # supersample factor
 
 # Palette (NASA-inspired)
-BG_TOP = (30, 90, 200, 255)      # deep sky blue
-BG_BOT = (70, 140, 240, 255)     # lighter blue
-GLOBE = (235, 245, 255, 255)     # near-white with cool tint
-GRID = (40, 100, 200, 180)       # visible blue lat/long grid
-SWATH = (255, 210, 90, 235)      # warm yellow orbit
+BG_TOP = (30, 90, 200, 255)  # deep sky blue
+BG_BOT = (70, 140, 240, 255)  # lighter blue
+GLOBE = (235, 245, 255, 255)  # near-white with cool tint
+GRID = (40, 100, 200, 180)  # visible blue lat/long grid
+SWATH = (255, 210, 90, 235)  # warm yellow orbit
 SWATH_BACK = (255, 210, 90, 150)  # dimmer shade for arc behind globe
-WAVE = (160, 220, 255, 235)      # light water blue
+WAVE = (160, 220, 255, 235)  # light water blue
 
 
-def vertical_gradient(size: int, top: tuple[int, ...], bot: tuple[int, ...]) -> Image.Image:
+def vertical_gradient(
+    size: int, top: tuple[int, ...], bot: tuple[int, ...]
+) -> Image.Image:
     """Create a vertical gradient image.
 
     Args:
