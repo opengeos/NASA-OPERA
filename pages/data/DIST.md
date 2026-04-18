@@ -6,7 +6,7 @@ title: DIST
 
 ## Overview
 
-The **Land Surface Disturbance (DIST)** product suite identifies vegetation
+The **Land Surface Disturbance ([DIST](https://www.jpl.nasa.gov/go/opera/products/dist-product-suite))** product suite identifies vegetation
 and land-cover disturbances caused by natural and anthropogenic events, such
 as wildfire, deforestation, agricultural conversion, and urban development.
 DIST supports OPERA's surface-disturbance mission objective with frequent,
@@ -45,5 +45,5 @@ Global land coverage, with alert cadence driven by the HLS revisit frequency.
 
 - OPERA project page: <https://www.earthdata.nasa.gov/data/projects/opera>
 - LP DAAC: <https://lpdaac.usgs.gov/>
-- DIST-ALERT-HLS at LP DAAC: <https://lpdaac.usgs.gov/products/opera_l3_dist-alert-hls_v1/>
-- DIST-ANN-HLS at LP DAAC: <https://lpdaac.usgs.gov/products/opera_l3_dist-ann-hls_v1/>
+- DIST-ALERT-HLS at LP DAAC: <https://www.earthdata.nasa.gov/data/catalog/lpcloud-opera-l3-dist-alert-hls-v1-1>
+- DIST-ANN-HLS at LP DAAC: <https://www.earthdata.nasa.gov/data/catalog/lpcloud-opera-l3-dist-ann-hls-v1-1>

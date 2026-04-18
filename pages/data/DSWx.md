@@ -6,7 +6,7 @@ title: DSWx
 
 ## Overview
 
-The **Dynamic Surface Water eXtent (DSWx)** product suite maps the presence and
+The **Dynamic Surface Water eXtent ([DSWx](https://www.jpl.nasa.gov/go/opera/products/dswx-product-suite))** product suite maps the presence and
 extent of inland and near-shore surface water using optical and synthetic
 aperture radar (SAR) observations. DSWx supports OPERA's surface-water mission
 objective, providing frequent, analysis-ready water maps for hydrology,
@@ -63,6 +63,6 @@ underlying HLS and Sentinel-1 observations.
 ## References
 
 - OPERA project page: <https://www.earthdata.nasa.gov/data/projects/opera>
-- PO.DAAC: <https://podaac.jpl.nasa.gov/>
+- PO.DAAC: <https://podaac.jpl.nasa.gov>
 - DSWx-HLS at PO.DAAC: <https://podaac.jpl.nasa.gov/dataset/OPERA_L3_DSWX-HLS_V1>
 - DSWx-S1 at PO.DAAC: <https://podaac.jpl.nasa.gov/dataset/OPERA_L3_DSWX-S1_V1>
