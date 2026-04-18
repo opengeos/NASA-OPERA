@@ -1,5 +1,7 @@
 ---
-title: GEE
+title: Earth Engine Data Catalogs
+description: The Earth Engine Data Catalogs QGIS plugin for browsing and accessing Google Earth Engine datasets alongside OPERA products.
+thumbnail: images/logo.png
 ---
 
-# GEE
+# Earth Engine Data Catalogs

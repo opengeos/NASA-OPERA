@@ -1,8 +1,10 @@
 ---
-title: DISP-S1
+title: DISP
+description: Overview of the OPERA Surface Displacement from Sentinel-1 (DISP-S1) product, providing InSAR-derived surface-displacement time series for deformation and land-motion monitoring.
+thumbnail: images/logo.png
 ---
 
-# DISP-S1
+# DISP
 
 ## Overview
 

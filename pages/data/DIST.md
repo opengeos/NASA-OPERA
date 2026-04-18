@@ -1,5 +1,7 @@
 ---
 title: DIST
+description: Overview of the OPERA Land Surface Disturbance (DIST) product suite for identifying vegetation and land-cover disturbances from natural and anthropogenic events.
+thumbnail: images/logo.png
 ---
 
 # DIST

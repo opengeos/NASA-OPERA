@@ -34,24 +34,24 @@ project:
       children:
         - file: pages/data/DSWx.md
         - file: pages/data/DIST.md
-        - file: pages/data/DISP-S1.md
-        - file: pages/data/CSLC-S1.md
-        - file: pages/data/RTC-S1.md
+        - file: pages/data/DISP.md
+        - file: pages/data/CSLC.md
+        - file: pages/data/RTC.md
     - title: Notebook Examples
       children:
         - file: pages/notebooks/DSWx.md
         - file: pages/notebooks/DIST.md
-        - file: pages/notebooks/DISP-S1.md
+        - file: pages/notebooks/DISP.md
     - title: Web Apps
       children:
         - file: pages/apps/DSWx.md
         - file: pages/apps/DIST.md
-        - file: pages/apps/DISP-S1.md
+        - file: pages/apps/DISP.md
     - title: QGIS Plugins
       children:
         - file: pages/plugins/OPERA.md
-        - file: pages/plugins/Leafmap.md
         - file: pages/plugins/GEE.md
+        - file: pages/plugins/Leafmap.md
     - file: pages/videos.md
     - file: pages/workshops.md
     - file: pages/blog.md

@@ -1,8 +1,10 @@
 ---
-title: RTC-S1
+title: RTC
+description: Overview of the OPERA Radiometric Terrain-Corrected from Sentinel-1 (RTC-S1) product, providing calibrated, terrain-corrected SAR backscatter for change detection and analysis-ready workflows.
+thumbnail: images/logo.png
 ---
 
-# RTC-S1
+# RTC
 
 ## Overview
 

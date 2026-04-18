@@ -1,5 +1,7 @@
 ---
 title: DSWx
+description: Overview of the OPERA Dynamic Surface Water eXtent (DSWx) product suite for mapping inland and near-shore surface water from optical and SAR observations.
+thumbnail: images/logo.png
 ---
 
 # DSWx

@@ -2,6 +2,7 @@
 title: Blog Posts
 subtitle: Thoughts on data science, open-source software, and teaching.
 description: A blog about data science, open-source software, and teaching, powered by MyST Markdown.
+thumbnail: images/logo.png
 ---
 
 # Blog Posts
