@@ -1,7 +1,7 @@
 ---
 title: CSLC
 description: Overview of the OPERA Coregistered Single-Look Complex from Sentinel-1 (CSLC-S1) product, providing interferometric-ready SAR data for InSAR time-series analysis.
-thumbnail: images/logo.png
+thumbnail: ../images/logo.png
 ---
 
 # CSLC
