@@ -1,14 +1,16 @@
 ---
 title: NASA OPERA
 subtitle: Advancing OPERA Product Accessibility and AI-Enabled Applications Through Open-Source Geospatial Frameworks
+description: This site documents a collaboration between the University of Tennessee and NASA JPL, led by Dr. Qiusheng Wu, that advances OPERA product accessibility and AI-enabled applications through open-source geospatial frameworks.
 acknowledgments: null
+thumbnail: images/logo.png
 ---
 
 # NASA OPERA
 
 ## Introduction
 
-NASA's **Observational Products for End-Users from Remote Sensing Analysis ([OPERA](https://www.jpl.nasa.gov/go/opera))** project, established at the Jet Propulsion Laboratory (JPL) in 2020, delivers satellite-derived data products that address the operational and scientific priorities identified by the Satellite Needs Working Group (SNWG). OPERA products span surface water dynamics, land surface disturbance, geodetic deformation, and vertical land motion, and include **DSWx**, **DIST**, **DISP-S1**, **CSLC-S1** (and CSLC-S1-STATIC), and **RTC-S1** (and RTC-S1-STATIC).
+NASA's **Observational Products for End-Users from Remote Sensing Analysis ([OPERA](https://www.jpl.nasa.gov/go/opera))** project, established at the Jet Propulsion Laboratory (JPL) in 2020, delivers satellite-derived data products that address the operational and scientific priorities identified by the Satellite Needs Working Group (SNWG). OPERA products span surface water dynamics, land surface disturbance, geodetic deformation, and vertical land motion, and include **[DSWx](pages/data/dswx)**, **[DIST](pages/data/dist)**, **[DISP-S1](pages/data/disp-s1)**, **[CSLC-S1](pages/data/cslc-s1)** (and CSLC-S1-STATIC), and **[RTC-S1](pages/data/rtc-s1)** (and RTC-S1-STATIC).
 
 This site documents a collaboration between the **University of Tennessee** and **NASA JPL**, led by Dr. [Qiusheng Wu](https://gishub.org), that advances OPERA product accessibility and AI-enabled applications through open-source geospatial frameworks. The work integrates OPERA products into tools such as **Leafmap**, **AnyMap**, and **MapLibre GL JS**, delivers a dedicated **NASA OPERA QGIS plugin** for no-code and low-code access, and extends the **GeoAI** Python package with native OPERA support for machine learning and deep learning workflows.
 
