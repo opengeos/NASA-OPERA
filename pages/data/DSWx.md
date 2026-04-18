@@ -30,14 +30,14 @@ flood response, and long-term water-resource monitoring.
 
 :::{card}
 :link: https://podaac.jpl.nasa.gov/dataset/OPERA_L3_DSWX-HLS_V1
-![DSWx-HLS](https://podaac.jpl.nasa.gov/Podaac/thumbnails/OPERA_L3_DSWX-HLS_PROVISIONAL_V0.png)
+![DSWx-HLS](../images/OPERA_L3_DSWX-HLS_PROVISIONAL_V0.webp)
 +++
 **DSWx-HLS**
 :::
 
 :::{card}
 :link: https://podaac.jpl.nasa.gov/dataset/OPERA_L3_DSWX-S1_V1
-![DSWx-S1](https://podaac.jpl.nasa.gov/Podaac/thumbnails/OPERA_L3_DSWx-S1_V1.jpg)
+![DSWx-S1](../images/OPERA_L3_DSWx-S1_V1.webp)
 +++
 **DSWx-S1**
 :::
