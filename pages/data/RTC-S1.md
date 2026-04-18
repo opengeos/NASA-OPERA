@@ -6,7 +6,7 @@ title: RTC-S1
 
 ## Overview
 
-The **Radiometric Terrain-Corrected from Sentinel-1 (RTC-S1)** product
+The **Radiometric Terrain-Corrected from Sentinel-1 ([RTC-S1](https://www.jpl.nasa.gov/go/opera/products/rtc-product))** product
 provides calibrated, terrain-corrected SAR backscatter suitable for direct
 analysis and change detection. RTC-S1 removes topographic distortions and
 radiometric biases, enabling consistent multi-temporal comparison across
@@ -16,7 +16,6 @@ Sentinel-1 acquisitions, and is also used as input to OPERA's DSWx-S1 product.
 
 - Processing level: Level-2
 - DAAC: ASF DAAC
-- DOI: [10.5067/SNWG/OPERA_L2_RTC-S1_V1](https://doi.org/10.5067/SNWG/OPERA_L2_RTC-S1_V1)
 - Project: NASA OPERA (JPL)
 
 ## Related product
@@ -43,6 +42,6 @@ Near-global — all land masses excluding Antarctica.
 
 ## References
 
-- OPERA project page: <https://www.earthdata.nasa.gov/data/projects/opera>
-- ASF DAAC: <https://asf.alaska.edu/>
-- RTC-S1 at ASF: <https://asf.alaska.edu/datasets/daac/opera/>
+- OPERA project page: <https://www.jpl.nasa.gov/go/opera>
+- ASF DAAC: <https://asf.alaska.edu>
+- RTC-S1 at ASF: <https://www.earthdata.nasa.gov/data/catalog/asf-opera-l2-rtc-s1-v1-1>

@@ -6,7 +6,7 @@ title: CSLC-S1
 
 ## Overview
 
-The **Coregistered Single-Look Complex from Sentinel-1 (CSLC-S1)** product
+The **Coregistered Single-Look Complex from Sentinel-1 ([CSLC-S1](https://www.jpl.nasa.gov/go/opera/products/cslc-product-suite))** product
 provides interferometric-ready SAR data derived from Sentinel-1 SLC
 acquisitions. CSLC-S1 is the foundational Level-2 input for higher-level
 OPERA surface-displacement processing (DISP-S1) and supports general
@@ -16,7 +16,6 @@ interferometric SAR (InSAR) analysis.
 
 - Processing level: Level-2
 - DAAC: ASF DAAC
-- DOI: [10.5067/SNWG/OPERA_L2_CSLC-S1_V1](https://doi.org/10.5067/SNWG/OPERA_L2_CSLC-S1_V1)
 - Project: NASA OPERA (JPL)
 
 ## Related product
@@ -45,6 +44,6 @@ border, and mainland countries from the southern U.S. border through Panama.
 
 ## References
 
-- OPERA project page: <https://www.earthdata.nasa.gov/data/projects/opera>
+- OPERA project page: <https://www.jpl.nasa.gov/go/opera>
 - ASF DAAC: <https://asf.alaska.edu/>
-- CSLC-S1 at ASF: <https://asf.alaska.edu/datasets/daac/opera/>
+- CSLC-S1 at ASF: <https://www.earthdata.nasa.gov/data/catalog/asf-opera-l2-cslc-s1-v1-1>

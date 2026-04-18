@@ -43,7 +43,7 @@ Global land coverage, with alert cadence driven by the HLS revisit frequency.
 
 ## References
 
-- OPERA project page: <https://www.earthdata.nasa.gov/data/projects/opera>
+- OPERA project page: <https://www.jpl.nasa.gov/go/opera>
 - LP DAAC: <https://lpdaac.usgs.gov/>
 - DIST-ALERT-HLS at LP DAAC: <https://www.earthdata.nasa.gov/data/catalog/lpcloud-opera-l3-dist-alert-hls-v1-1>
 - DIST-ANN-HLS at LP DAAC: <https://www.earthdata.nasa.gov/data/catalog/lpcloud-opera-l3-dist-ann-hls-v1-1>

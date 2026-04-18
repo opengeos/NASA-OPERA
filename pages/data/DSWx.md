@@ -62,7 +62,7 @@ underlying HLS and Sentinel-1 observations.
 
 ## References
 
-- OPERA project page: <https://www.earthdata.nasa.gov/data/projects/opera>
+- OPERA project page: <https://www.jpl.nasa.gov/go/opera>
 - PO.DAAC: <https://podaac.jpl.nasa.gov>
 - DSWx-HLS at PO.DAAC: <https://podaac.jpl.nasa.gov/dataset/OPERA_L3_DSWX-HLS_V1>
 - DSWx-S1 at PO.DAAC: <https://podaac.jpl.nasa.gov/dataset/OPERA_L3_DSWX-S1_V1>
