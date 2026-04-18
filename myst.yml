@@ -52,19 +52,17 @@ project:
         - file: pages/plugins/OPERA.md
         - file: pages/plugins/Leafmap.md
         - file: pages/plugins/GEE.md
-    - file: blog.md
-      children:
-        - file: tags/myst-markdown.md
-        - file: tags/tutorial.md
-        - file: tags/github-pages.md
+    - file: pages/videos.md
+    - file: pages/workshops.md
+    - file: pages/blog.md
     - file: pages/contact.md
     - pattern: posts/*.md
       hidden: true
 site:
   options:
-    logo: logo.png
-    logo_dark: logo.png
-    favicon: fav.ico
+    logo: images/logo.png
+    logo_dark: images/logo.png
+    favicon: images/fav.ico
     folders: true
     style: custom.css
     analytics_google: G-HLSSQ8JVQZ
@@ -73,4 +71,9 @@ site:
       url: https://opera.opengeos.org/rss.xml
   template: book-theme
   parts:
-    primary_sidebar_footer: '![](logo.png)'
+    primary_sidebar_footer: '![](images/logo_200x.png)'
+    footer: |
+      [YouTube](https://youtube.com/@giswqs) |
+      [GitHub](https://github.com/giswqs) |
+      [LinkedIn](https://www.linkedin.com/in/giswqs) |
+      [RSS](https://opera.opengeos.org/rss.xml)

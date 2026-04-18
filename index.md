@@ -10,9 +10,9 @@ acknowledgments: null
 
 **Acknowledgments**
 
-This project is supported by NASA JPL.
+This project is supported by NASA Jet Propulsion Laboratory (JPL).
 
-::::{grid} 1 1 2 2
+::::{grid} 2 2 4 4
 
 :::{card}
 :link: https://nasa.gov
