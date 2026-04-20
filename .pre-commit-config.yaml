@@ -22,7 +22,7 @@ repos:
       - id: codespell
         args:
           [
-            "--ignore-words-list=previos",
+            "--ignore-words-list=previos,alos",
             "--skip=*.csv,*.geojson,*.json,*.yml,*.js,*.html,*cff,*.pdf",
           ]
 
