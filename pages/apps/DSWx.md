@@ -8,6 +8,6 @@ thumbnail: ../images/logo.png
 
 :::{iframe} https://opengeos.org/maplibre-gl-components/examples/spin-globe/
 :width: 100%
-Spinning Globe with MapLibre GL JS.
+A spinning globe with JRC global water water occurrence and military grids.
 :::
 

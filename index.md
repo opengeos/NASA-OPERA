@@ -16,7 +16,7 @@ This site documents a collaboration between the **University of Tennessee** and 
 
 :::{iframe} https://opengeos.org/maplibre-gl-components/examples/spin-globe/
 :width: 100%
-Spinning Globe with MapLibre GL JS.
+A spinning globe with JRC global water water occurrence and military grids.
 :::
 
 ## What you'll find here
