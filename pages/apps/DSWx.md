@@ -6,4 +6,8 @@ thumbnail: ../images/logo.png
 
 # DSWx
 
-Under construction.
+:::{iframe} https://opengeos.org/maplibre-gl-components/examples/spin-globe/
+:width: 100%
+Spinning Globe with MapLibre GL JS.
+:::
+
