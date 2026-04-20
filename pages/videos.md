@@ -5,3 +5,5 @@ thumbnail: images/logo.png
 ---
 
 # Video Tutorials
+
+Under construction.
