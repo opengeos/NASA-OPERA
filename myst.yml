@@ -54,6 +54,7 @@ project:
         - file: pages/plugins/GEE.md
         - file: pages/plugins/Timelapse.md
         - file: pages/plugins/Leafmap.md
+        - file: pages/plugins/GeoAI.md
     - file: pages/videos.md
     - file: pages/workshops.md
     - file: pages/blog.md

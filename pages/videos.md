@@ -47,3 +47,20 @@ Watch the Earth Change: New QGIS Plugin Creates Satellite Timelapse Animations i
 :width: 100%
 Compare Layers Visually in QGIS: New Leafmap Plugin Demo!
 :::
+
+## GeoAI QGIS Plugin
+
+:::{iframe} https://www.youtube.com/embed/TJmZQXJK-IU
+:width: 100%
+GeoAI QGIS Plugin Installation on Linux and Windows
+:::
+
+:::{iframe} https://www.youtube.com/embed/8-OhlqeoyiY
+:width: 100%
+Full Usage Tutorial for the GeoAI QGIS Plugin
+:::
+
+:::{iframe} https://www.youtube.com/embed/Esr_e6_P1is
+:width: 100%
+GeoAI QGIS Plugin Short Demo
+:::

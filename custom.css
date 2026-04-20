@@ -17,8 +17,7 @@ table th:first-child {
   width: 100% !important;
 }
 
-.myst-grid .myst-card-footer,
-.myst-grid .myst-card-title {
+.myst-grid .myst-card-footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,8 +26,7 @@ table th:first-child {
   text-align: center !important;
 }
 
-.myst-grid .myst-card-footer > *,
-.myst-grid .myst-card-title > * {
+.myst-grid .myst-card-footer > * {
   text-align: center !important;
 }
 
@@ -62,4 +60,26 @@ table th:first-child {
 .myst-grid .myst-card-header p,
 .myst-grid .myst-card-body p {
   margin: 0 !important;
+}
+
+#posts ~ .myst-grid .myst-card-title,
+#posts ~ * .myst-grid .myst-card-title {
+  margin-bottom: 0.75rem !important;
+}
+
+#posts ~ .myst-grid .myst-card-header,
+#posts ~ * .myst-grid .myst-card-header {
+  padding: 0.5rem !important;
+  padding-bottom: 0 !important;
+}
+
+#posts ~ .myst-grid .myst-card-header img,
+#posts ~ * .myst-grid .myst-card-header img {
+  margin: 0 !important;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+#posts ~ .myst-grid .myst-card-body,
+#posts ~ * .myst-grid .myst-card-body {
+  padding-top: 0 !important;
 }
