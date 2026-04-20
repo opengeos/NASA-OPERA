@@ -1,6 +1,6 @@
 ---
 title: DSWx
-description: Interactive, cloud-native web app demonstrating the OPERA DSWx surface-water product.
+description: Interactive, cloud-native web app demonstrating the OPERA DSWx surface-water products.
 thumbnail: ../images/logo.png
 ---
 
