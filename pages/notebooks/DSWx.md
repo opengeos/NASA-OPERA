@@ -14,8 +14,8 @@ kernelspec:
   name: python3
 ---
 
-[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/opengeos/leafmap/blob/master/docs/maplibre/nasa_opera.ipynb)
-[![image](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/opengeos/leafmap/HEAD)
+[![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/opengeos/NASA-OPERA/blob/main/pages/notebooks/DSWx.ipynb)
+[![image](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/opengeos/NASA-OPERA/HEAD)
 
 
 Started in April 2021, the Observational Products for End-Users from Remote Sensing Analysis ([OPERA](https://www.jpl.nasa.gov/go/opera)) project at the Jet Propulsion Laboratory collects data from satellite radar and optical instruments to generate six product suites:
