@@ -20,6 +20,18 @@ thumbnail: images/logo.png
 
 ::::{grid} 1 1 2 2
 
+:::{card} Access NASA OPERA Data in QGIS with a Plugin and an AI Agent
+:link: ./posts/nasa-opera-qgis-plugin
+:header: ![thumbnail](https://img.youtube.com/vi/8J37g9NxHmM/maxresdefault.jpg)
+May 5, 2026 – A step-by-step tutorial on installing the NASA OPERA QGIS plugin, searching DSWx surface water products, and using an integrated AI agent to analyze flood events.
+:::
+
+:::{card} OpenGeoAgent: An Open-Source Multimodal AI Agent for Geospatial Analysis in QGIS
+:link: ./posts/opengeoagent-qgis-plugin
+:header: ![thumbnail](https://img.youtube.com/vi/5zkXQlHUsu8/maxresdefault.jpg)
+May 3, 2026 – Introducing OpenGeoAgent, an open-source multimodal AI agent that automates geospatial analysis and visualizationthrough natural language.
+:::
+
 :::{card} GeoAI QGIS Plugin v1.0: One-Click Installation for Geospatial AI
 :link: /posts/geoai-qgis-plugin
 :header: ![thumbnail](https://img.youtube.com/vi/L90id_ESQME/maxresdefault.jpg)

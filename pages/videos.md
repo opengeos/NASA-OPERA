@@ -8,7 +8,10 @@ thumbnail: images/logo.png
 
 ## NASA OPERA QGIS Plugin
 
-Under construction.
+:::{iframe} https://www.youtube.com/embed/8J37g9NxHmM
+:width: 100%
+QGIS NASA OPERA Plugin + AI Agent (Full Tutorial)
+:::
 
 ## NASA Earthdata QGIS Plugin
 
@@ -32,6 +35,13 @@ This QGIS Plugin Unlocks 80 Petabytes of Satellite Data, For Free!
 :::{iframe} https://www.youtube.com/embed/8IW6XqnUjgg
 :width: 100%
 Create Stunning Time-Series Satellite Images in Seconds!
+:::
+
+## OpenGeoAgent QGIS Plugin
+
+:::{iframe} https://www.youtube.com/embed/5zkXQlHUsu8
+:width: 100%
+OpenGeoAgent: A Multimodal AI Agent For Automated Geospatial Analysis & Visualization
 :::
 
 ## Timelapse QGIS Plugin
