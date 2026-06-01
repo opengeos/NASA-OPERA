@@ -14,9 +14,9 @@ NASA's **Observational Products for End-Users from Remote Sensing Analysis ([OPE
 
 This site documents a collaboration between the **University of Tennessee** and **NASA JPL**, led by Dr. [Qiusheng Wu](https://gishub.org), that advances OPERA product accessibility and AI-enabled applications through open-source geospatial frameworks. The work integrates OPERA products into tools such as **[Leafmap](https://leafmap.org)**, **[AnyMap](https://ts.anymap.dev)**, and **[MapLibre GL JS](https://maplibre.org)**, delivers a dedicated **[NASA OPERA QGIS plugin](https://github.com/opengeos/qgis-nasa-opera-plugin)** for no-code and low-code access, and extends the **[GeoAI](https://opengeoai.org)** Python package with native OPERA support for machine learning and deep learning workflows.
 
-:::{iframe} https://opengeos.org/maplibre-gl-components/examples/spin-globe/
+:::{iframe} https://geolibre.app/demo/?url=https://data.geolibre.app/opera-dswx.geolibre.json&layout=compact&panels=none
 :width: 100%
-A spinning globe with JRC global water water occurrence and military grids.
+Visualizing OPERA DSWx products in the GeoLibre web app ([link](https://geolibre.app/demo/?url=https://data.geolibre.app/opera-dswx.geolibre.json)).
 :::
 
 ## What you'll find here
@@ -41,13 +41,11 @@ This project is supported by NASA Jet Propulsion Laboratory (JPL).
 **NASA**
 :::
 
-
 :::{card}
 :link: https://jpl.nasa.gov
 ![jpl](images/jpl.webp)
 +++
 **JPL**
 :::
-
 
 ::::
